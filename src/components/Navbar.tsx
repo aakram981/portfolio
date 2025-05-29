@@ -18,8 +18,8 @@ export default function Navbar() {
       <span className="w-4 h-4 bg-[#eee6dd] block rounded-sm shadow-sm sm:mb-8 mb-6" />
       
       <div className="text-black font-bold text-lg sm:text-2xl leading-tight text-center sm:text-left">
-        <div>Ebtihel</div>
-        <div>Kantaoui</div>
+        <div>Akram</div>
+        <div>Brahem</div>
       </div>
     </div>
 

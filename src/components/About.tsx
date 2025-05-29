@@ -1,14 +1,14 @@
-import { useEffect, useState } from 'react';
-import linkedinIcon from '../images/linkedin.png';
-import githubIcon from '../images/github.png';
-import facebookIcon from '../images/facebook.png';
-import instagramIcon from '../images/instagram.png';
-import profil from '../images/profil.png';
-import { Link } from 'react-router-dom';
+import { useEffect, useState } from "react";
+import linkedinIcon from "../images/linkedin.png";
+import githubIcon from "../images/github.png";
+import facebookIcon from "../images/facebook.png";
+import instagramIcon from "../images/instagram.png";
+import profil from "../images/profil.png";
+import { Link } from "react-router-dom";
 
 export default function About() {
-  const [text, setText] = useState('');
-  const fullText = "Myy name is Ebtihel,\nI am a Business & Data Analyst";
+  const [text, setText] = useState("");
+  const fullText = "Myy name is Akram,\nI am a Business & Data Analyst";
   const typingSpeed = 50;
 
   useEffect(() => {
@@ -22,24 +22,28 @@ export default function About() {
   }, []);
 
   return (
-    <section id="about" className="relative w-full min-h-screen flex items-center justify-center">
+    <section
+      id="about"
+      className="relative w-full min-h-screen flex items-center justify-center"
+    >
       <div className="absolute inset-0 hidden md:flex">
         <div className="w-[1000px] bg-[#e9dccf]" />
         <div className="w-full bg-white" />
       </div>
 
-      <div className="relative z-10 w-full max-w-7xl px-4 py-12 mb-8 
-      flex flex-col md:flex-row items-center md:items-end justify-between md:gap-x-8 sm:mt-[45px] mt-0 space-y-12 md:space-y-0">
-
+      <div
+        className="relative z-10 w-full max-w-7xl px-4 py-12 mb-8 
+      flex flex-col md:flex-row items-center md:items-end justify-between md:gap-x-8 sm:mt-[45px] mt-0 space-y-12 md:space-y-0"
+      >
         <div className="bg-[#f7efe7] shadow-xl ml-0 sm:ml-40 p-6 w-full h-auto md:w-[38%] max-w-sm flex flex-col items-center justify-center">
           <img
             src={profil}
-            alt="Ebtihel Kantaoui"
+            alt="Akram Brahem"
             className="w-40 h-40 sm:w-60 sm:h-60 rounded-full object-cover shadow-md"
           />
 
           <h2 className="mt-6 text-2xl sm:text-3xl font-bold text-black leading-tight text-center sm:mb-6 mb-2">
-            Ebtihel <br /> Kantaoui
+            Akram <br /> Brahem
           </h2>
 
           <div className="w-12 border-t-2 border-gray-500 my-2" />
@@ -49,16 +53,16 @@ export default function About() {
           </p>
 
           <div className="bg-white w-full py-4 flex justify-center space-x-6 shadow-md">
-            <a href="https://www.linkedin.com/in/ebtihel-kantaoui-04737b197/">
+            <a href="https://www.linkedin.com/in/Akram-Brahem-04737b197/">
               <img src={linkedinIcon} alt="LinkedIn" className="w-6 h-6" />
             </a>
-            <a href="https://github.com/ebtihel17">
+            <a href="https://github.com/Akram17">
               <img src={githubIcon} alt="GitHub" className="w-6 h-6" />
             </a>
             <a href="https://www.facebook.com/profile.php?id=100013316658415">
               <img src={facebookIcon} alt="Facebook" className="w-6 h-6" />
             </a>
-            <a href="https://www.instagram.com/ebtihel.knt/">
+            <a href="https://www.instagram.com/Akram.knt/">
               <img src={instagramIcon} alt="Instagram" className="w-6 h-6" />
             </a>
           </div>
@@ -66,26 +70,28 @@ export default function About() {
 
         <div className="w-full md:w-[55%] flex flex-col items-center md:items-start text-center md:text-left">
           <div className="mb-6">
-            <h1 className="text-5xl sm:text-7xl md:text-8xl font-extrabold text-black mb-4">Hello</h1>
+            <h1 className="text-5xl sm:text-7xl md:text-8xl font-extrabold text-black mb-4">
+              Hello
+            </h1>
             <div className="whitespace-pre-line text-xl sm:text-2xl font-semibold text-black mb-4 min-h-[64px]">
               {text}
             </div>
           </div>
 
           <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-3 sm:space-y-0 mb-6">
-  <Link
-    to="/cv"
-    className="w-32 bg-[#b7b5f5] text-white text-sm px-4 py-1.5 rounded-full shadow-md text-center hover:opacity-90 transition"
-  >
-    CV
-  </Link>
-  <Link
-    to="/projects"
-    className="font-semibold w-32 border-2 border-black text-black text-sm px-4 py-1.5 rounded-full text-center hover:bg-gray-100 transition"
-  >
-    PROJECTS
-  </Link>
-</div>
+            <Link
+              to="/cv"
+              className="w-32 bg-[#b7b5f5] text-white text-sm px-4 py-1.5 rounded-full shadow-md text-center hover:opacity-90 transition"
+            >
+              CV
+            </Link>
+            <Link
+              to="/projects"
+              className="font-semibold w-32 border-2 border-black text-black text-sm px-4 py-1.5 rounded-full text-center hover:bg-gray-100 transition"
+            >
+              PROJECTS
+            </Link>
+          </div>
 
           <div className="space-y-6 text-gray-800 text-sm sm:text-base leading-relaxed text-justify max-w-full md:max-w-[520px]">
             {[
