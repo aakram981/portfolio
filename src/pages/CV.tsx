@@ -16,13 +16,13 @@ export default function CVPage() {
 
  <div className="w-full flex justify-center">
   <a
-    href="https://44212e1e-5f5c-4b1e-bfaa-de24c8d5dd12.filesusr.com/ugd/f36aae_d52fb1099058420d93005755ab25cf66.pdf"
-    download
-    className="mt-12 bg-[#b7b5f5] text-white px-4 py-2 rounded-full shadow-xl text-sm hover:bg-[#a3a1e0] transition
-      translate-x-0 md:translate-x-[300px]"
-  >
-    DOWNLOAD RESUME
-  </a>
+  href="/files/Akram-Brahem-cv-data-analyst.pdf"
+  download="Akram-Brahem-CV.pdf"
+  className="mt-12 bg-[#b7b5f5] text-white px-4 py-2 rounded-full shadow-xl text-sm hover:bg-[#a3a1e0] transition translate-x-0 md:translate-x-[300px]"
+>
+  DOWNLOAD RESUME
+</a>
+
 </div>
 
 </div>

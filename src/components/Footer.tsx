@@ -14,10 +14,10 @@ export default function Footer() {
         <div className="text-sm">
           <p className="font-semibold text-black text-center">E-mail</p>
           <a
-            href="mailto:Akram.Brahem@gmail.com"
+            href="mailto:Akramshanfara.52@gmail.com"
             className="hover:text-blue-600 break-words"
           >
-            Akram.Brahem@gmail.com
+            Akramshanfara.52@gmail.com
           </a>
         </div>
       </div>

@@ -1,17 +1,11 @@
 export default function Skills() {
   const skills = [
-    'Data visualization',
-    'Data analytics',
-    'Data cleaning',
-    'Machine Learning',
-    'Dashboard development',
-    'Predictive modeling',
-    "Time Series Forecasting",
-    "Finanacial analytics",
-    "Web Scraping",
-    "​Problem-Solving",
-    "analytical thinking",
-    "Teamwork"
+    'Data Analysis & Visualization',
+    'Data Modeling & Reporting',
+    'ETL Tools',
+    'KPI Analysis',
+    'Project Management',
+    'Programming Languages'
 
   ];
 
@@ -25,7 +19,7 @@ export default function Skills() {
     {skills.map((skill, index) => (
       <div
         key={index}
-        className="bg-white shadow-2xl px-6 py-6 text-center text-xl sm:text-3xl font-bold"
+        className="bg-white shadow-2xl px-6 py-6 text-center text-xl sm:text-2xl font-bold"
       >
         {skill}
       </div>

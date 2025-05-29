@@ -1,11 +1,10 @@
 export default function Certifications() {
   const certifications = [
-    'Presenter Certificate (International Conference on Multiple Criteria Decision Making "MCDM 2024")',
-    'Google Data Analytics Professional Certificate',
-    'Python for Data Science, AI & Development: IBM',
-    'Data Science tools: IBM',
-    'Six Sigma Yellow Belt',
-    'Scrum Fundamentals SFC™',
+    'Python Track Certification | DataCamp | April 2025',
+    'Python & SQL Bootcamp | Gate Training | Feb. 2025 – May 2025',
+    'Data Analytics – Microsoft Power BI | GOMYCODE | Nov. 2024',
+    'Agile Methods for IT Projects | UDEMY | Dec. 2020',
+    'SCRUM Fundamentals | SCRUM STUDY | Oct. 2020',
   ];
 
   return (
@@ -17,8 +16,8 @@ export default function Certifications() {
       <div className="bg-white shadow-2xl max-w-3xl mx-auto p-8">
         <ul className="space-y-4">
           {certifications.map((cert, index) => (
-            <li key={index} className="flex items-start sm:text-[24px] text-[18px] font-bold">
-              <span className="text-[#b7b5f5] sm:text-3xl text-md font-bold mr-2 ml-4">+</span>
+            <li key={index} className="flex items-start sm:text-[20px] text-[16px] font-medium">
+              <span className="text-[#b7b5f5] sm:text-3xl text-lg font-bold mr-2 ml-4">+</span>
               <span>{cert}</span>
             </li>
           ))}

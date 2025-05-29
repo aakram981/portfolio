@@ -1,23 +1,17 @@
-import word from '../../images/word.png';
-import powerpoint from '../../images/ppt.png';
 import excel from '../../images/excel.png';
 import powerbi from '../../images/power BI.png';
 import python from '../../images/python.png';
-import rstudio from '../../images/rstudio.png';
-import tableau from '../../images/tab.png';
 import sql from '../../images/sql.png';
-import jira from '../../images/jira.png';
+import PQ from '../../images/PQ.png';
+import Trello from '../../images/trello.png';
 
 const tools = [
-  { name: 'Word', icon: word },
-  { name: 'PowerPoint', icon: powerpoint },
   { name: 'Excel', icon: excel },
   { name: 'Power BI', icon: powerbi },
+  { name: 'Trello', icon: Trello },
+  { name: 'sql', icon: sql },
   { name: 'Python', icon: python },
-  { name: 'RStudio', icon: rstudio },
-  { name: 'Tableau', icon: tableau },
-  { name: 'SQL', icon: sql },
-  { name: 'jira', icon: jira },
+  { name: 'PQ', icon: PQ },
 ];
 
 export default function Tools() {

@@ -8,91 +8,38 @@ export default function Experience() {
       <div className="space-y-10">
 
         <ExperienceCard
-          year="2024"
-          title="Business Analyst / Product Owner"
-          company="Fidness"
-          location="Tunis"
+         year="2020 – 2024"
+          title="Founder & Project Manager"
+          company="Shanfara – Crowdfunding Platform"
+          location="Tunisia"
           description={[
-            "- Prepared FRD documents and maintained detailed project documentation.",
-            "- Created and prioritized project backlogs in Jira, aligning with Agile methodologies.",
-            "- Managed workflows and sprint activities for efficient task tracking and delivery.",
-            "- Ensured clear communication between stakeholders and IT teams.",
+            "-Created and managed the crowdfunding platform Shanfara.",
+            "-Increased online visibility by 30% in 6 months using digital marketing strategies.",
+            "-Monitored KPIs, coordinated a cross-functional team, and managed stakeholder communication."
           ]}
         />
 
         <ExperienceCard
-          year="2024"
-          title="Data Science Intern"
-          company="ScreenFlex"
-          location="Tunis"
+          year="Oct. 2021 – Feb. 2022"
+          title="Sales Manager"
+          company="BYZACIA – Olive Oil Production"
+          location="Tunisia"
           description={[
-            "During my internship, I developed a desktop application using Electron and Python to detect faces, track entries/exits, and predict demographic details (age, gender) in real-time from video streams:",
-            "- Implemented face and person detection using YOLO and DeepSORT, with demographic analysis via DeepFace.",
-            "- Used Electron to create the app interface, with HTML/CSS/JavaScript for frontend design and real-time data visualization via Chart.js.",
-            "- Integrated Python for video processing and SQLite for storing demographic data and entry/exit counts."
+            "-Explored new market opportunities for olive oil products.",
+            "-Created performance reports to measure sales impact and support decision-making."
           ]}
         />
 
         <ExperienceCard
-          year="2024"
-          title="Data Science Intern"
-          company="Tradly"
-          location="USA - Remote"
+         year="Jul. 2019 – Oct. 2019"
+          title="Green Projects Coordinator"
+          company="Governorate of Mahdia – AFDD"
+          location="Tunisia"
           description={[
-            "During my internship, I developed an algorithmic trading system using machine learning for advanced pattern recognition across different asset classes:",
-            "- Building a computer vision model to scan market data, detect technical patterns such as Head and Shoulders, Triangles, and Flag, and generate trading signals upon identifying opportunities, incorporating robust risk management strategies.",
-            "- Creating an LSTM model for stock market price forecasting.",
-            "- Implementing real-time extraction and visualization of market data.",
-            "- Building a Dash app to visualize historical data and the detected patterns, providing valuable insights for trading decisions."
+            "-Organized workshops and supervised green projects.",
+            "-Ensured alignment of initiatives with sustainability goals."
           ]}
         />
-
-        <ExperienceCard
-          year="2023"
-          title="Data Science Intern"
-          company="INTERNSAVY"
-          location="Tunis"
-          description={[
-            "During my internship, I had the opportunity to work on a diverse range of projects that allowed me to apply my skills in data analysis and machine learning:",
-            "- Mall customer segmentation: hierarchical clustering",
-            "- Customer Segmentation Using K-Means Clustering",
-            "- Graduate Admission Prediction"
-          ]}
-        />
-
-        <ExperienceCard
-          year="2023"
-          title="Data Analyst Intern"
-          company="CodeClause"
-          location="Tunis"
-          description={[
-            "During my internship, I undertook a challenging and insightful project focused on Gold Price Prediction.",
-            "Leveraging advanced data analytics and machine learning techniques, I developed models to forecast gold prices"
-          ]}
-        />
-
-        <ExperienceCard
-          year="2022"
-          title="Insurance Analyst"
-          company="GAT ASSURANCES"
-          location="Sousse - Tunisia"
-          description={[
-            "This experience has allowed me to acquire skills in:",
-            "- Providing information and advice to clients",
-            "- Managing insurance contracts and claims file"
-          ]}
-        />
-
-        <ExperienceCard
-          year="2021"
-          title="Banking Analyst"
-          company="BIAT BANK"
-          location="Sousse - Tunisia"
-          description={[
-            "Through this internship, I had the opportunity to discover how a banking agency operates. Specifically, I carried out and assisted in in counter operations, management of means of payment, remittance of checks and bills, etc."
-          ]}
-        />
-
       </div>
     </div>
   );

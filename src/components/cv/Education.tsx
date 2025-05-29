@@ -7,25 +7,22 @@ export default function Education() {
 
       <div className="space-y-10">
         <EducationCard
-          year="2023 – 2024"
-          title="Tunis Business School - University of Tunis"
-          degree="Master of Science (MS), Business analytics: Data analytics"
-          location="Tunis - Tunisia"
+          year="2018 – 2020"
+          title="International School of Management of Sousse"
+          degree="Master’s Degree in Innovation Project Management"
+          location="Sousse – Tunisia"
           content={[
-            "- During my first year as a master's student, I achieved the top rank in my cohort, securing the first position.",
-            "- In my Master's program, I focused on applying analytical techniques and tools in business contexts: analyzing and interpreting large data sets to make informed business decisions and solve complex business problems.",
-            "Skills: Machine Learning, Deep Learning, Statistical Modeling, Data Visualization.",
-            "Tools: Python, R Studio, Power BI, Microsoft Excel."
+            "-Graduation project: Optimization of a warehouse using the Japanese 5S method.",
+            "-Final year project: Development of a dropshipping platform for olive-based products in Tunisia."
           ]}
         />
         <EducationCard
-          year="2019 – 2022"
-          title="IHEC"
-          degree="Bachelor's degree in Management Sciences - Financial Analytics"
-          location="Sousse - Tunisia"
+          year="2015 – 2018"
+          title="Private University of Sousse"
+          degree="Bachelor’s Degree in Financial Management"
+          location="Sousse – Tunisia"
           content={[
-            "I am a HEC graduate, having successfully completed my studies with Honors.",
-            "Throughout this demanding program, my coursework revolved around a diverse array of subjects, including Mathematics, Statistics, Econometrics, Financial Analysis, Actuarial Studies, Risk Measurement, Financial Engineering, Business Decision Making, and Game Theory."
+            "-Completed a solid academic background in finance, accounting, and management principles."
           ]}
         />
       </div>

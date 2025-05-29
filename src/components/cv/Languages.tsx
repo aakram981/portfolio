@@ -1,5 +1,5 @@
 export default function Languages() {
-  const languages = ['English', 'French', 'Arabic', 'Spanish'];
+  const languages = ['Arabic', 'English', 'French'];
 
   return (
     <div className="mb-16">
