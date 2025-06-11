@@ -1,6 +1,4 @@
-import PerformanceDashboard from "../images/Performance Dashboard.jpg";
 import ServiceRevenue from "../images/service_and_revenue.jpg";
-import ServiceRevenue2 from "../images/service_and_revenue2.jpg";
 import RBID1 from "../images/RBID1.png";
 import RBID2 from "../images/RBID2.png";
 import RBID3 from "../images/RBID3.png";
@@ -8,17 +6,14 @@ import RBID4 from "../images/RBID4.png";
 
 const projects = [
   {
-    title: "Performance Dashboard – Service Hours Analysis",
-    description: `This interactive dashboard was developed using Power BI to analyze service hours across different countries and departments. Users can filter by service description, department, and country to visualize trends in workload distribution. Key features include tooltip-based comparisons, dynamic filtering, and a clean layout for managerial insights.`,
-    images: [PerformanceDashboard],
-    link: "https://www.linkedin.com/in/akram-brahem-36b203258/",
-    hasVideo: true, 
-  },
-  {
     title: "Performance Dashboard – Service & Revenue Analytics",
     description: `This comprehensive Power BI dashboard analyzes both service hours and financial performance across departments, countries, and regions. It includes multiple views: workload distribution, total revenue, average revenue per client, and regional performance breakdown. Filters allow dynamic interaction by service, department, and quarter, providing actionable insights for business decisions.`,
-    images: [ServiceRevenue, ServiceRevenue2],
-    videos: ["/videos/PD2.mp4", "/videos/PD3.mp4"],
+    images: [ServiceRevenue],
+    videos: [
+      `${process.env.PUBLIC_URL}/videos/PD4.mp4`,
+      `${process.env.PUBLIC_URL}/videos/PD2.mp4`,
+      `${process.env.PUBLIC_URL}/videos/PD3.mp4`,
+    ],
     link: "https://www.linkedin.com/in/akram-brahem-36b203258/",
   },
   {
@@ -83,15 +78,6 @@ export default function Projects() {
                   </div>
                 ))}
 
-              {project.hasVideo && (
-                <div className="bg-white shadow-2xl p-6 md:p-8 max-w-3xl mx-auto">
-                  <video
-                    controls
-                    className="rounded shadow-md w-full h-auto"
-                    src="/videos/PD1.mp4"
-                  />
-                </div>
-              )}
             </div>
           ))}
         </div>
