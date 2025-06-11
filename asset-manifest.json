@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ecaa6eff.css",
-    "main.js": "/portfolio/static/js/main.64838f64.js",
+    "main.css": "/portfolio/static/css/main.d8d9f80c.css",
+    "main.js": "/portfolio/static/js/main.dcf91224.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/RBID3.png": "/portfolio/static/media/RBID3.9c174de90ef2357298d9.png",
     "static/media/profil.png": "/portfolio/static/media/profil.d85944a61b26bee82136.png",
     "static/media/RBID1.png": "/portfolio/static/media/RBID1.2aedcc3cd4a05339870d.png",
     "static/media/excel.png": "/portfolio/static/media/excel.f177c77280dbc1e99417.png",
     "static/media/service_and_revenue.jpg": "/portfolio/static/media/service_and_revenue.672678ed736ead70dd27.jpg",
-    "static/media/service_and_revenue2.jpg": "/portfolio/static/media/service_and_revenue2.9fa73d7fd92f4efc8a1c.jpg",
     "static/media/RBID2.png": "/portfolio/static/media/RBID2.52010f6dd5a7c7308da7.png",
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.ffb0a4ba57771f0cc84d.png",
-    "static/media/Performance Dashboard.jpg": "/portfolio/static/media/Performance Dashboard.5594c7450e63ae00459e.jpg",
     "static/media/RBID4.png": "/portfolio/static/media/RBID4.5b69b03c5517b5bc66a8.png",
     "static/media/PQ.png": "/portfolio/static/media/PQ.819181156b17894bfbcb.png",
     "static/media/power BI.png": "/portfolio/static/media/power BI.0a9c27788a35c0edb093.png",
@@ -19,12 +17,12 @@
     "static/media/sql.png": "/portfolio/static/media/sql.716ccee06a2406fb4ec4.png",
     "static/media/facebook.png": "/portfolio/static/media/facebook.ab9c1f5ef5aad63f7aab.png",
     "index.html": "/portfolio/index.html",
-    "main.ecaa6eff.css.map": "/portfolio/static/css/main.ecaa6eff.css.map",
-    "main.64838f64.js.map": "/portfolio/static/js/main.64838f64.js.map",
+    "main.d8d9f80c.css.map": "/portfolio/static/css/main.d8d9f80c.css.map",
+    "main.dcf91224.js.map": "/portfolio/static/js/main.dcf91224.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecaa6eff.css",
-    "static/js/main.64838f64.js"
+    "static/css/main.d8d9f80c.css",
+    "static/js/main.dcf91224.js"
   ]
 }
