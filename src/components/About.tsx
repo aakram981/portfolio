@@ -1,10 +1,8 @@
 import { useEffect, useState } from "react";
-import linkedinIcon from "../images/linkedin.png";
-import githubIcon from "../images/github.png";
-import facebookIcon from "../images/facebook.png";
-import instagramIcon from "../images/instagram.png";
-import profil from "../images/profil.png";
 import { Link } from "react-router-dom";
+import githubIcon from "../images/github.png";
+import linkedinIcon from "../images/linkedin.png";
+import profil from "../images/profil.png";
 
 export default function About() {
   const [text, setText] = useState("");
