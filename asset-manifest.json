@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d8d9f80c.css",
-    "main.js": "/portfolio/static/js/main.dcf91224.js",
+    "main.js": "/portfolio/static/js/main.24a88411.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/RBID3.png": "/portfolio/static/media/RBID3.9c174de90ef2357298d9.png",
     "static/media/profil.png": "/portfolio/static/media/profil.d85944a61b26bee82136.png",
@@ -15,14 +15,13 @@
     "static/media/power BI.png": "/portfolio/static/media/power BI.0a9c27788a35c0edb093.png",
     "static/media/trello.png": "/portfolio/static/media/trello.96fe0a3d9a0eac337754.png",
     "static/media/sql.png": "/portfolio/static/media/sql.716ccee06a2406fb4ec4.png",
-    "static/media/facebook.png": "/portfolio/static/media/facebook.ab9c1f5ef5aad63f7aab.png",
     "index.html": "/portfolio/index.html",
     "main.d8d9f80c.css.map": "/portfolio/static/css/main.d8d9f80c.css.map",
-    "main.dcf91224.js.map": "/portfolio/static/js/main.dcf91224.js.map",
+    "main.24a88411.js.map": "/portfolio/static/js/main.24a88411.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8d9f80c.css",
-    "static/js/main.dcf91224.js"
+    "static/js/main.24a88411.js"
   ]
 }
