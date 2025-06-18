@@ -59,12 +59,6 @@ export default function About() {
             <a href="https://github.com/aakram981">
               <img src={githubIcon} alt="GitHub" className="w-6 h-6" />
             </a>
-            <a href="https://www.facebook.com/akrem.brahem.1">
-              <img src={facebookIcon} alt="Facebook" className="w-6 h-6" />
-            </a>
-            <a href="https://www.instagram.com/Akram.knt/">
-              <img src={instagramIcon} alt="Instagram" className="w-6 h-6" />
-            </a>
           </div>
         </div>
 
@@ -94,18 +88,17 @@ export default function About() {
           </div>
 
           <div className="space-y-6 text-gray-800 text-sm sm:text-base leading-relaxed text-justify max-w-full md:max-w-[520px]">
-  {[
-    "I studied Project Management and earned a Master's degree from the International School of Management in Sousse. During my studies, I worked on projects like improving logistics using the 5S method and building an e-commerce platform for olive-based products. I also have a Bachelor's degree in Financial Management.",
-    "I use Power BI, SQL, Excel, and Python to work with data. I analyze and visualize information to help companies make better decisions.",
-    "I created a crowdfunding platform, worked on market research for olive products, and helped organize eco-friendly projects. I also have certifications in Python, SQL, Power BI, and Agile methods."
-  ].map((text, index) => (
-    <div key={index} className="flex items-start space-x-2">
-      <div className="w-3 h-3 bg-black mt-2 flex-shrink-0 rounded-sm" />
-      <p className="text-gray-800 text-justify">{text}</p>
-    </div>
-  ))}
-</div>
-
+            {[
+              "I studied Project Management and earned a Master's degree from the International School of Management in Sousse. During my studies, I worked on projects like improving logistics using the 5S method and building an e-commerce platform for olive-based products. I also have a Bachelor's degree in Financial Management.",
+              "I use Power BI, SQL, Excel, and Python to work with data. I analyze and visualize information to help companies make better decisions.",
+              "I created a crowdfunding platform, worked on market research for olive products, and helped organize eco-friendly projects. I also have certifications in Python, SQL, Power BI, and Agile methods.",
+            ].map((text, index) => (
+              <div key={index} className="flex items-start space-x-2">
+                <div className="w-3 h-3 bg-black mt-2 flex-shrink-0 rounded-sm" />
+                <p className="text-gray-800 text-justify">{text}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

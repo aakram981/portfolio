@@ -11,13 +11,13 @@ export default function Footer() {
           </p>
         </div>
 
-        <div className="text-sm">
-          <p className="font-semibold text-black text-center">E-mail</p>
+        <div className="text-sm flex gap-2">
+          <p className="font-semibold text-black text-center">E-mail: </p>
           <a
-            href="mailto:Akramshanfara.52@gmail.com"
+            href="mailto:akramshanfara.52@gmail.com"
             className="hover:text-blue-600 break-words"
           >
-            Akramshanfara.52@gmail.com
+            akramshanfara.52@gmail.com
           </a>
         </div>
       </div>
